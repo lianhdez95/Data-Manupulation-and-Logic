@@ -1624,7 +1624,7 @@ Para crear un espacio de objetos en una aplicación ASP.NET Core, inserte el ser
 -   Utilice el servicio en lugar de . `INonSecuredObjectSpaceFactory``IObjectSpaceFactory`
 -   Utilice otra forma de asegurarse de si un usuario ha iniciado sesión (por ejemplo, utilice con ).`AuthorizationPolicyBuilder.RequireXafAuthentication``AuthorizeAttribute`
 
-#### [#](https://docs.devexpress.com/eXpressAppFramework/403669/data-manipulation-and-business-logic/access-object-space-security-and-caption-helper-in-asp-net-core-environment#object-space-razor)Desde un componente de maquinilla de afeitar
+#### Desde un componente de razor
 
 **Archivo:**  _MySolution.Blazor.Server\Pages\MyComponent.razor._
 
@@ -1765,7 +1765,7 @@ namespace MySolution.Blazor.Server {
 
 ```
 
-#### Desde un componente de maquinilla de afeitar
+#### Desde un componente de razor
 
 **Archivo:**  _MySolution.Blazor.Server\Pages\MyComponent.razor._
 
@@ -1833,7 +1833,7 @@ La clase  [auxiliar de subtítulos permite obtener subtítulos](https://docs.dev
 
 Este servicio utiliza un modelo de aplicación compartido y no devuelve cadenas localizadas específicas del usuario desde un almacenamiento de diferencias de modelo de usuario. Si la aplicación no almacena subtítulos diferentes para diferentes usuarios en el modelo de aplicación, use el servicio  [ICaptionHelperProvider](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Services.Localization.ICaptionHelperProvider)  como una forma unificada de obtener subtítulos localizados.
 
-#### Desde un componente de maquinilla de afeitar
+#### Desde un componente de razor
 
 **Archivo**:  _MySolution.Blazor.Server\Pages\MyComponent.razor._
 
